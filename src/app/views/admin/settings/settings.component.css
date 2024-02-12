@@ -1,0 +1,116 @@
+.containers {
+  border-radius: 10px;
+  background-color: white;
+  height: 100%;
+}
+
+h5 {
+  font-size: 2rem;
+}
+.nav-tabs .nav-link {
+  border: none;
+  color: darkgrey;
+}
+
+.nav-tabs .nav-link.active {
+  color: darkred;
+  border-bottom: 3px solid darkred;
+}
+
+.row {
+  padding: 10px;
+}
+
+.top-buttons {
+  margin: 1rem;
+}
+
+.table {
+  justify-content: center;
+  border-top: 1px solid lightgrey;
+}
+
+.payments-qr {
+  margin: 1rem;
+}
+
+#current-qr {
+  border: 5px solid darkgray;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+h6 {
+  font-weight: bold;
+}
+.bottom-box {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.title-text {
+  flex-grow: 1;
+}
+
+.title-text p {
+  font-size: small;
+}
+
+.btn-updateQr {
+  align-items: end;
+  text-align: right;
+}
+
+.title-text {
+  border-bottom: 2px solid darkgrey;
+}
+
+.btn-updateQr {
+  border-bottom: 2px solid darkgrey;
+}
+
+.image-wrapper {
+  display: inline-block; 
+  padding: 0; 
+  margin: 0;
+}
+
+.image-area {
+  position: relative;
+  display: inline-block; 
+}
+
+.image-area img {
+  display: block;
+  border-radius: 10px;
+}
+
+.remove-image {
+  display: none;
+  position: absolute;
+  top: 0;
+  right: 0; 
+  border-radius: 10em;
+  padding: 2px 6px 3px;
+  text-decoration: none;
+  font: 700 21px/20px sans-serif;
+  background: #555;
+  color: #FFF;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.5), inset 0 2px 4px rgba(0, 0, 0, 0.3);
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.5);
+  -webkit-transition: background 0.5s;
+  transition: background 0.5s;
+  z-index: 1;
+}
+
+.image-area:hover .remove-image {
+  display: inline;
+}
+
+.remove-image:hover {
+  background: #e54e4e;
+}
+
+.remove-image:active {
+  background: #e54e4e;
+}
